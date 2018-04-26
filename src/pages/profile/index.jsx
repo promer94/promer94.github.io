@@ -37,7 +37,7 @@ class Profile extends React.Component {
         <section className="text-center">
           <div className="container">
             <img
-              src={pathPrefix + '/img/profile.jpg'}
+              src={pathPrefix + '/img/profile.jpeg'}
               alt="YixuanXu"
               className="rounded-circle mx-auto d-block"
               width="120px"
