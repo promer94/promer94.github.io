@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-bootstrap",
-  "description": "Simple starter for Gatsby",
-  "version": "1.9.119",
-  "author": "Futoshi Iwashita <jaxx2104@gmail.com>",
+  "name": "Blog",
+  "description": "Blog",
+  "version": "1.0.0",
+  "author": "YixuanXu",
   "dependencies": {
     "gatsby": "^1.9.130",
     "gatsby-link": "^1.6.31",
