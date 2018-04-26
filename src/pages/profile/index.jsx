@@ -209,6 +209,19 @@ class Profile extends React.Component {
               <div className="col-lg-12">
                 <h2 className="section-heading">Education</h2>
                 <hr className="border-primary" />
+                <ul className="list-group">
+                  <li className="list-group-item active ">
+                    2013-2015, Xi'an Jiaotong-Liverpool University, BEng,
+                    COMPUTER SCIENCE AND TECHNOLOGY
+                  </li>
+                  <li className="list-group-item active">
+                    2015-2017, University of Liverpool, BEng, COMPUTER SCIENCE
+                    AND ELECTRONIC ENGINEERING
+                  </li>
+                  <li className="list-group-item active">
+                    2017-2018, University of Southampton, Msc, DATA SCIENCE
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
