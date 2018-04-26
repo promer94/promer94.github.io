@@ -5,7 +5,7 @@ layout: post
 path: "/javascript-closure/"
 categories:
   - JavaScript
-  - Basic knowledge
+  - Fundamental
 ---  
 # 闭包
 
