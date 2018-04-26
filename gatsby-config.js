@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Eloquent Code',
     description: 'A personal blog',
-    siteUrl: 'https://gatstrap.netlify.com',
+    siteUrl: 'https://promer94.github.io',
     author: 'YixuanXu',
     twitter: 'YixuanXu',
     adsense: '',
@@ -43,10 +43,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatstrap',
-        short_name: 'Gatstrap',
-        description: 'Gatsby starter for bootstrap a blog',
-        homepage_url: 'https://gatstrap.netlify.com',
+        name: 'Eloquent Code',
+        short_name: 'Eloquent Code',
+        description: 'My personal blog',
+        homepage_url: 'https://promer94.github.io',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#673ab7',
