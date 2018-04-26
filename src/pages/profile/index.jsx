@@ -53,7 +53,7 @@ class Profile extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="section-heading">SKIL</h2>
+                <h2 className="section-heading">SKILL</h2>
                 <hr className="border-white" />
               </div>
             </div>
@@ -65,7 +65,7 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="HTML"
+                  title="Html5"
                 >
                   <i className="devicon-html5-plain " data-emergence="hidden" />
                 </div>
@@ -75,7 +75,7 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="CSS"
+                  title="Css3"
                 >
                   <i className="devicon-css3-plain" data-emergence="hidden" />
                 </div>
@@ -161,7 +161,7 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Git"
+                  title="Vim"
                 >
                   <i className="devicon-vim-plain" data-emergence="hidden" />
                 </div>
@@ -191,7 +191,7 @@ class Profile extends React.Component {
                   className="service-box"
                   data-toggle="tooltip"
                   data-placement="top"
-                  title="Docker"
+                  title="Ubuntu"
                 >
                   <i
                     className="devicon-ubuntu-plain-wordmark"
@@ -211,15 +211,21 @@ class Profile extends React.Component {
                 <hr className="border-primary" />
                 <ul className="list-group">
                   <li className="list-group-item active ">
-                    2013-2015, Xi'an Jiaotong-Liverpool University, BEng,
-                    COMPUTER SCIENCE AND TECHNOLOGY
+                    <strong>
+                      2013-2015, Xi'an Jiaotong-Liverpool University, BEng,
+                      Computer Science and Technology
+                    </strong>
                   </li>
                   <li className="list-group-item active">
-                    2015-2017, University of Liverpool, BEng, COMPUTER SCIENCE
-                    AND ELECTRONIC ENGINEERING
+                    <strong>
+                      2015-2017, University of Liverpool, BEng, Computer Science
+                      and Electronic Engineering
+                    </strong>
                   </li>
                   <li className="list-group-item active">
-                    2017-2018, University of Southampton, MSc, DATA SCIENCE
+                    <strong>
+                      2017-2018, University of Southampton, MSc, Data Science
+                    </strong>
                   </li>
                 </ul>
               </div>
@@ -242,8 +248,10 @@ class Profile extends React.Component {
                 <h2 className="section-heading">Experiences</h2>
                 <hr className="border-white" />
                 <ul className="list-group">
-                  <li className="list-group-item">
-                    01.2018-04.2018, AlgoLib LTD, Frontend Developer
+                  <li className="list-group-item text-dark">
+                    <strong>
+                      01.2018-04.2018, AlgoLib LTD, Frontend Developer
+                    </strong>
                   </li>
                 </ul>
               </div>
