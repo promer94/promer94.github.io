@@ -1,0 +1,56 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-378b5cd6d70e8d0eb692.js",
+      "component---src-pages-index-js-378b5cd6d70e8d0eb692.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---profile": [
+      "path---profile-a0e39f21c11f6a62c5ab.js",
+      "path---profile-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-3f1cdcf8d077db5fba6b.js",
+      "component---src-templates-blog-post-js-3f1cdcf8d077db5fba6b.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-49dd9b14e5e96adf7f7f.js",
+      "component---src-layouts-index-js-49dd9b14e5e96adf7f7f.js.map"
+    ],
+    "path---index": [
+      "path---index-6f5681885b5c633a902f.js",
+      "path---index-6f5681885b5c633a902f.js.map"
+    ],
+    "commons": [
+      "commons-94660f8feb223646c67f.js",
+      "build-js-styles.css",
+      "commons-94660f8feb223646c67f.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---javascript-closure": [
+      "path---javascript-closure-f5a21bad64bda79d2741.js",
+      "path---javascript-closure-f5a21bad64bda79d2741.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-52b66da1eb6be50e9dc5.js",
+      "build-js-styles.css",
+      "app-52b66da1eb6be50e9dc5.js.map",
+      "build-js-styles.css.map"
+    ],
+    "component---src-pages-profile-index-jsx": [
+      "component---src-pages-profile-index-jsx-ef2043a9026a89e5f7b8.js",
+      "component---src-pages-profile-index-jsx-ef2043a9026a89e5f7b8.js.map"
+    ]
+  }
+}
