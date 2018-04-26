@@ -219,7 +219,7 @@ class Profile extends React.Component {
                     AND ELECTRONIC ENGINEERING
                   </li>
                   <li className="list-group-item active">
-                    2017-2018, University of Southampton, Msc, DATA SCIENCE
+                    2017-2018, University of Southampton, MSc, DATA SCIENCE
                   </li>
                 </ul>
               </div>
@@ -239,8 +239,13 @@ class Profile extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="section-heading">Experiences and projects</h2>
+                <h2 className="section-heading">Experiences</h2>
                 <hr className="border-white" />
+                <ul className="list-group">
+                  <li className="list-group-item">
+                    01.2018-04.2018, AlgoLib LTD, Frontend Developer
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
