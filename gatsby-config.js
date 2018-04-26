@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
+    title: 'Eloquent Code',
+    description: 'A personal blog',
     siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    author: 'YixuanXu',
+    twitter: 'YixuanXu',
     adsense: '',
   },
   pathPrefix: '/',
