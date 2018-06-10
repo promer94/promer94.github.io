@@ -9,11 +9,10 @@ categories:
 ---  
 # 闭包
 
-对于 JavaScript 的初学者来说，闭包算是一个难点。 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) 的 JavaScript 文档对闭包的概念给出了准确的定义，也提供了简单直观的的实例，是一个非常好的学习材料。 这篇文章将从文档出发，对闭包的知识点进行一个简单的梳理。
+ 对于 JavaScript 的初学者来说，闭包算是一个难点。 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures) 的 JavaScript 文档对闭包的概念给出了准确的定义，也提供了简单直观的的实例，是一个非常好的学习材料。 这篇文章将从文档出发，对闭包的知识点进行一个简单的梳理。
 <!--more-->
-  
 ## 闭包是什么       
-首先我们需要对闭包提供一个准确的定义。 在文档中，闭包的定义是 'A closure is the combination of a function and the lexical environment within which that function was declared'。这个初看是非常拗口的，我们只需要记住就好。真正理解定义最好方式就是通过实际的代码。 假设：
+首先我们需要对闭包提供一个准确的定义。 在文档中，闭包的定义是 'A closure is the combination of a function and the lexical environment within which that function was declared'。这个定义非常的拗口，我们只需要留有一个印象。真正理解定义最好方式就是通过实际的代码。 假设：
  ```js
  function init() {
     var name = "Hello"; // name 是一个被 init 创建的局部变量
@@ -25,7 +24,7 @@ categories:
 }
 init();
 ```  
-通过以上的代码块来看，我们可以简单总结为闭包是 ‘一个拥有外部变量的函数’。 例子中的函数 `displayname`调用不属于自己的外部变量`name`，不管此 `displayName` 函数最终是否被返回，实际上由 `name` 和 `displayName` 组成的闭包已经形成了。  
+通过以上的代码块来看，我们可以简单总结为闭包是 ‘一个拥有外部变量的函数’。 例子中的函数 `displayname`可以调用不属于自己的外部变量`name`，不管此 `displayName` 函数最终是否被返回，实际上由 `name` 和 `displayName` 组成的闭包已经形成了。  
 ```js
  function init() {
     var name = "Hello"; // name 是一个被 init 创建的局部变量
@@ -38,7 +37,7 @@ init();
 var fun = init();
 fun();
 ```     
-上面的新代码块的区别在于函数`init`返回了一个函数`displayName`。也就是返回了一个闭包。通过这个返回的闭包，我们就可以访问这个函数所相关联的词法环境或者说数据。本来应该被销毁的`name`变量保留了下来，而且只能通过调用闭包的方式来访问，这也就是私有性。 
+上面的新代码块的区别在于函数`init`返回了一个函数`displayName`。通过这个返回的函数，我们就可以访问这个函数所相关联的词法环境或者说数据。本来应该被销毁的`name`变量保留了下来，而且只能通过调用函数的方式来访问，这也就是私有性。 
 
 ---
 ## 闭包的作用  
@@ -106,7 +105,7 @@ function setupHelp() {
 
 setupHelp();
 ``` 
-这段代码执行的结果就是，无论你选择哪一个输入框，helper 信息都会显示为第三个。原因就是返回三个闭包实际上共享了由`var`这个关键词创建的 `item`这一个词法环境。闭包只会捕获自由变量的引用，所以三个闭包中的`item`都是 age。根据这一点我们可以将代码修改如下
+这段代码执行的结果就是，无论你选择哪一个输入框，helper 信息都会显示为第三个。原因就是返回三个闭包实际上共享了由`var`这个关键词创建的 `item`这一个词法环境。闭包只会捕获自由变量的引用，所以三个闭包中的`item`都指向了第三个 helper text。根据这一点我们可以将代码修改如下
 
 
 ```js
@@ -153,4 +152,4 @@ function setupHelp() {
 
 setupHelp();
 ```  
-每一次循环，都有一个新的 item 被创建，三个闭包不再共享同一个词法环境。
+每一次循环，都有一个新的 item 被创建，三个函数不再共享同一个词法环境。
