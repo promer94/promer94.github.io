@@ -7,7 +7,7 @@ module.exports = {
     twitter: 'YixuanXu',
     adsense: '',
   },
-  pathPrefix: '/',
+  pathPrefix: '/blog',
   plugins: [
     {
       resolve: 'gatsby-source-filesystem',
@@ -47,7 +47,7 @@ module.exports = {
         short_name: 'Eloquent Code',
         description: 'My personal blog',
         homepage_url: 'https://yixuanxu.club',
-        start_url: '/blog',
+        start_url: '/public',
         background_color: '#fff',
         theme_color: '#673ab7',
         display: 'standalone',
