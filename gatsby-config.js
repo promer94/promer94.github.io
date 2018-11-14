@@ -47,7 +47,7 @@ module.exports = {
         short_name: 'Eloquent Code',
         description: 'My personal blog',
         homepage_url: 'https://yixuanxu.club',
-        start_url: '/public',
+        start_url: '/blog',
         background_color: '#fff',
         theme_color: '#673ab7',
         display: 'standalone',
