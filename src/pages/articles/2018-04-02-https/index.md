@@ -7,7 +7,7 @@ categories:
   - HTTP
   - Fundamental
 ---
-## HTTPS 与 http
+## HTTPS 与 HTTP
 HTTP 协议是当前互联网中最流行的协议之一，但 HTTP 协议本身存在很大的安全漏洞。明文传输的 HTTP 协议已经不适合这个时代了。 HTTPS 协议正是为了解决这个问题而诞生的。HTTPS 协议又被称为 HTTP over TLS，HTTP over SSL。 它通过 HTTP 协议进行通信，利用 TLS/SSL 来加密数据包。
 <!--more-->
 ## HTTPS 的工作原理
